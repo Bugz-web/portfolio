@@ -1,0 +1,37 @@
+//hero background
+
+.hero {
+    background: #151515 url(/images/intro-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero::after {
+    content: "";
+    inset: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+}
+
+.text-container {
+    z-index: 1;
+}
+
+.hero .roles {
+    font-family: "lora-regular", serif;
+}
+
+.hero .socials {
+    bottom: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero .socials i {
+        font-size: 30px;
+    }
+
+    .hero .roles {
+        font-size: 18px !important;
+    }
+}
