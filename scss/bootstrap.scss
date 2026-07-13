@@ -7,4 +7,38 @@ $secondary: #990047;
 $dark: #000;
 $light: #f4f4f4;
 
+//buttons
+
+$button-radius: 0;
+$button-padding-x: 30px;
+$button-padding-y: 12px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+
+$navbar-toggler-border-radius: 5px;
+
+//spacing
+$spacer: 1rem !default;
+
+$spacers: (
+    0: 0,
+    1: 0.25 * $spacer,
+    2: 0.5 * $spacer,
+    3: 1 * $spacer,
+    4: 1.5 * $spacer,
+    5: 3 * $spacer,
+    6: 6 * $spacer,
+    7: 8 * $spacer,
+    8: 12 * $spacer
+) !default;
+
+
 @import '../node_modules/bootstrap/scss/bootstrap';
