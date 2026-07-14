@@ -25,6 +25,10 @@
     bottom: 50px;
 }
 
+.about-img {
+    width: 200px;
+}
+
 
 @media screen and (max-width: 768px) {
     .hero .socials i {
@@ -33,5 +37,10 @@
 
     .hero .roles {
         font-size: 18px !important;
+    }
+
+    .about .about-text {
+        width: 100% !important;
+        text-align: left !important;
     }
 }
