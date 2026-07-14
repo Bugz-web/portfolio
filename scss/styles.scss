@@ -29,6 +29,17 @@
     width: 200px;
 }
 
+.project {
+    transition: all 0.5s ease-in-out;
+}
+
+
+.project:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+
+}
+
 
 @media screen and (max-width: 768px) {
     .hero .socials i {
