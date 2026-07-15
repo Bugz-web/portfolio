@@ -6,7 +6,20 @@
     background-attachment: fixed;
 }
 
+.service-area {
+    background: url(/images/bg.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+
 .hero::after {
+    content: "";
+    inset: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+}
+
+.service-area:after {
     content: "";
     inset: 0;
     position: absolute;
@@ -41,6 +54,9 @@
 }
 
 
+
+
+
 @media screen and (max-width: 768px) {
     .hero .socials i {
         font-size: 30px;
@@ -54,4 +70,23 @@
         width: 100% !important;
         text-align: left !important;
     }
+
+    .shoutout p {
+        width: 100% !important;
+    }
+
+    .stats .stat-list {
+        flex-direction: column !important;
+        // align-items: end !important;
+    }
+
+   
+
+    .stats .stat-info {
+        border-right: 0 !important;
+        border-bottom: 1px solid var(--bs-secondary) !important;
+
+    }
+
+
 }
